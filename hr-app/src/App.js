@@ -1,26 +1,38 @@
-import React from 'react';
+import React,{Component,Fragment} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import "./styles/main.css";
+import NavBar from './components/NavBar';
+import Calendar from './components/Calendar';
+import LeaveForm from './components/LeaveForm';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+
+  render(){
+    return(
+      <div className="App">
+        <header>
+          <div id="logo">
+            <span className="icon">work</span>
+            <span>
+              Leave<b>Operations</b>
+            </span>
+          </div>
+          <div className="employee">
+            <p>Employee Name</p>
+          </div>
+        </header>
+        <main>
+          <Calendar />
+        </main>
+        <br />
+        <hr width="75%"/>
+        <LeaveForm />
+      </div>
+
+    );
+  }
 }
+
 
 export default App;
