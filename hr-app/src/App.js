@@ -1,8 +1,8 @@
-import React,{Component,Fragment} from 'react';
-import logo from './logo.svg';
+import React from 'react';
+
 import './App.css';
 import "./styles/main.css";
-import NavBar from './components/NavBar';
+
 import Calendar from './components/Calendar';
 import LeaveForm from './components/LeaveForm';
 
