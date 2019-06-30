@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  background-color: #ddd8d8;
+  color: black;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+body input,
+button {
+  border: none;
+  font-size: 100%;
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
