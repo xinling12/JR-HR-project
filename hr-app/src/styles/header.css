@@ -1,0 +1,35 @@
+.container-fluid {
+  position: fixed;
+  background-color: #6286d3;
+}
+
+.container-fluid .justify-content-end {
+  padding-right: 0px;
+}
+
+.container-fluid .navbar-nav .nav-link {
+  margin-right: 50px;
+}
+
+.search-input {
+  font-size: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  height: 30px;
+  width: 180px;
+}
+
+.search-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #a8a3a3;
+  margin-left: -39px;
+}
+
+.user-btn {
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=header.css.map */
